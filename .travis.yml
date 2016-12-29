@@ -2,6 +2,7 @@ language: objective-c
 osx_image: xcode8
 xcode_project: FastlineExample.xcodeproj
 xcode_scheme: FastlineExample
+bundler_args: --retry 5
 branches:
   only:
     - develop
