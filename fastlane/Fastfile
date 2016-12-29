@@ -3,7 +3,9 @@ default_platform :ios
 lane :tests do
   scan(
     scheme: 'FastlineExample',
-    devices: ["iPhone 5s", "iPhone 6", "iPhone 6s", "iPhone 6s Plus", "iPhone 7", "iPhone SE"],
-    code_coverage: true
+    devices: ["iPhone 5s (10.0)"],
+    code_coverage: true,
+    clean: true,
+    output_types: "html"
   )
 end
