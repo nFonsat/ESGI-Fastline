@@ -1,3 +1,8 @@
+default_platform :ios
+
 lane :tests do
-  scan()
+  scan(
+    scheme: 'FastlineExample',
+    device: "iPhone SE"
+  )
 end
