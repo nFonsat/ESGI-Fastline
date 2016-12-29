@@ -1,5 +1,8 @@
-osx_image: xcode8.0
 language: objective-c
+osx_image: xcode8.0
+xcode_project: FastlineExample.xcodeproj
+xcode_scheme: FastlineExample
+xcode_sdk: iphonesimulator9.0
 branches:
   only:
     - develop
