@@ -1,1 +1,3 @@
-brew cask install fastlane
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+brew 'cocoapods'
