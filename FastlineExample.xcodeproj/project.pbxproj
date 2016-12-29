@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					10F9B11A1DF1B5990083F74A = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q2G63B87TD;
 						ProvisioningStyle = Automatic;
 					};
 					10F9B12E1DF1B59A0083F74A = {
@@ -410,8 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q2G63B87TD;
 				INFOPLIST_FILE = FastlineExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nicolas.paradise.fr.FastlineExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,8 +426,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q2G63B87TD;
 				INFOPLIST_FILE = FastlineExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nicolas.paradise.fr.FastlineExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
